@@ -1,0 +1,24 @@
+<phpunit colors="true" stopOnFailure="false" bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="PHP">
+            <directory>tests/Services</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <const name="KDNIAO_EBUSINESS_ID" value="VALUE"/>
+        <const name="KDNIAO_APP_KEY" value="VALUE"/>
+        <const name="REDIS_HOST" value="VALUE"/>
+        <const name="REDIS_PORT" value="VALUE"/>
+        <const name="REDIS_AUTH" value="VALUE"/>
+        <const name="REDIS_DB" value="VALUE"/>
+        <const name="WECHAT_PAY_APIV3KEY" value="VALUE"/>
+        <const name="WECHAT_PAY_MCHID" value="VALUE"/>
+        <const name="WECHAT_PAY_CERT_PATH" value="VALUE"/>
+        <const name="WECHAT_PAY_CALLBACK_HEADER" value="VALUE"/>
+        <const name="WECHAT_PAY_CALLBACK_BODY" value="VALUE"/>
+        <const name="WECHAT_APPID" value="VALUE"/>
+        <const name="WECHAT_SECRET" value="VALUE"/>
+        <const name="WECHAT_TOKEN" value="VALUE"/>
+        <const name="WECHAT_AES_KEY" value="VALUE"/>
+    </php>
+</phpunit>
